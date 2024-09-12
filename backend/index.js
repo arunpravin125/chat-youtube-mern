@@ -35,6 +35,7 @@ app.get("*",(req,res)=>{
 //     console.log(`server started...${usePort}`)
 
 // })
+   // "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
 server.listen(usePort,()=>{
     connectToMongo()
     console.log(`server started...${usePort}`)
